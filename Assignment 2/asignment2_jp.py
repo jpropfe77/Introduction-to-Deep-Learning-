@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
-"""Asignment2_JP.ipynb
+"""CSCI 5425 - Assignment 2.
 
-"""
-CSCI 5425 - Assignment 2
 Linear Regression vs PyTorch MLP on the California Housing dataset.
 
 Run with:
-    python hw2.py
+    python asignment2_jp.py
 """
 
 import numpy as np
@@ -229,21 +227,16 @@ def main():
     print(f"Loss curve saved to {LOSS_PLOT_PATH}")
 
 
-Ai_Use_Statement = """AI use statement: Generative AI tools were used to assist \
-with portions of this assignment, in accordance with the course's GenAI policy. \
-Claude Sonnet 5 (Anthropic) was used to help structure code for hw2.py, as well as \
-to assist with debugging issues encountered during testing. Gemini 2.5, accessed \
-within Google Colab, was also used to assist with code explanation, debugging,\
-and troubleshooting during development and execution in the Colab environment.\
-All AI-generated content was reviewed, tested, and revised as necessary to ensure \
-it functioned correctly."""
+Ai_Use_Statement = (
+    "AI use statement: Generative AI tools were used to assist "
+    "with portions of this assignment, in accordance with the course's GenAI policy. "
+    "Claude Sonnet 5 (Anthropic) was used to help structure code for hw2.py, as well as "
+    "to assist with debugging issues encountered during testing. Gemini 2.5, accessed "
+    "within Google Colab, was also used to assist with code explanation, debugging, "
+    "and troubleshooting during development and execution in the Colab environment. "
+    "All AI-generated content was reviewed, tested, and revised as necessary to ensure "
+    "it functioned correctly."
+)
 
 if __name__ == "__main__":
     main()
-
-"""After the `main()` function has run and generated the files, you can use the following code to download them to your local machine:"""
-
-from google.colab import files
-
-files.download('README.md')
-files.download('loss_curve.png')
