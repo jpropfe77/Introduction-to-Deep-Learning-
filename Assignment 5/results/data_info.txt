@@ -1,0 +1,10 @@
+Training samples: 3680
+Testing samples:  3669
+First image size (width, height): (394, 500)
+First image label: 0 (Cat)
+First mask size (width, height):  (394, 500)
+First mask unique values: [1, 2, 3] (1=pet, 2=background, 3=boundary)
+Saved figures/sample_images.png
+images shape: (16, 3, 128, 128)  dtype=torch.float32  range=[0.000, 1.000]
+labels shape: (16,)  dtype=torch.int64
+masks shape:  (16, 128, 128)  dtype=torch.int64  unique=[0, 1, 2]

@@ -1,0 +1,14 @@
+# Downloaded dataset (do not upload)
+data/
+
+# Model checkpoints (do not upload)
+checkpoints/
+*.pt
+*.pth
+
+# Python / Jupyter / OS clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

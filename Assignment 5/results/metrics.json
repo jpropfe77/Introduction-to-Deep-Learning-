@@ -1,0 +1,6 @@
+{
+  "cnn_accuracy": 0.7383483237939493,
+  "resnet_accuracy": 0.7985827200872172,
+  "majority_dog_baseline": 0.6775688198419187,
+  "unet_pixel_accuracy": 0.8291840572778261
+}
